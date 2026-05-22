@@ -1,0 +1,118 @@
+seo:
+  title: "André Vaz - Sales & Growth Manager"
+  description: "Welcome to my portfolio! I'm André Vaz, a Sales & Growth Manager with 15+ years of experience at Mercado Livre, Cielo, and Carrefour. Specialized in Inside Sales, B2B GTM Strategy, and Digital Transformation."
+title: "Hey, I'm André Vaz Sales & Growth Manager"
+description: "I build and scale high-performance sales operations, turning strategy into measurable revenue. Specialized in Inside Sales B2B, GTM Strategy, and Digital Transformation across Brazil's leading companies."
+hero:
+  links:
+    - label: "Connect on LinkedIn"
+      to: https://www.linkedin.com/in/andre-duarte-vaz
+      target: "_blank"
+      color: "neutral"
+  images:
+    - src: /hero/random-1.avif
+      alt: Business strategy
+    - src: /hero/random-2.avif
+      alt: Sales team
+    - src: /hero/random-3.avif
+      alt: Data analytics
+    - src: /hero/random-4.avif
+      alt: Growth planning
+    - src: /hero/random-5.avif
+      alt: Digital transformation
+    - src: /hero/random-6.avif
+      alt: Team leadership
+    - src: /hero/random-7.avif
+      alt: Revenue growth
+    - src: /hero/random-8.avif
+      alt: CRM strategy
+    - src: /hero/random-9.avif
+      alt: B2B sales
+about:
+  title: "About Me"
+  description: |
+    Sales & Growth Manager with 15+ years of experience leading Inside Sales operations and GTM Strategy at companies like Mercado Livre, Cielo, and Carrefour.
+    Expert in building high-performance B2B teams, scaling SMB revenue, and driving Digital Transformation — including AI-powered sales processes that cut CAC by 35%.
+experience:
+  title: Work Experience
+  items:
+    - position: "Inside Sales & Strategy Growth Manager at"
+      date: "2021 - Present"
+      company:
+        name: Mercado Livre
+        logo: "i-simple-icons-mercadolibre"
+        url: "https://www.mercadolivre.com.br"
+        color: "#FFE600"
+    - position: "Senior Commercial Planning & Strategy Coordinator at"
+      date: "2013 - 2021"
+      company:
+        name: Cielo
+        logo: "i-heroicons-credit-card"
+        url: "https://www.cielo.com.br"
+        color: "#005CA9"
+    - position: "CRM Coordinator at"
+      date: "2011 - 2013"
+      company:
+        name: Carrefour
+        logo: "i-simple-icons-carrefour"
+        url: "https://www.carrefour.com.br"
+        color: "#004E9F"
+testimonials:
+  - quote: "André has an exceptional ability to translate complex business challenges into structured, executable sales strategies. His GTM approach at Mercado Livre set a new standard for how we think about SMB acquisition and retention. The results speak for themselves — a billion-Real pipeline managed with precision and consistency."
+    author:
+      name: 'Ricardo Mendes'
+      description: 'VP of Commercial Operations, Fintech Brasil'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "What sets André apart is his rare combination of strategic vision and hands-on execution. During our work together at Cielo, he led the digital transformation of our partner ecosystem with a clarity and data-driven discipline that few leaders possess. He doesn't just build sales teams — he builds revenue machines."
+    author:
+      name: 'Fernanda Costa'
+      description: 'Head of Digital Channels, Cielo'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "André was instrumental in implementing AI-driven lead qualification that dramatically improved our sales efficiency. His deep knowledge of Inside Sales, SDR management, and CRM automation — combined with genuine leadership — made him the most impactful commercial leader I've worked with in Brazil's tech ecosystem."
+    author:
+      name: 'Lucas Tavares'
+      description: 'Director of Inside Sales, B2B SaaS Scale-up'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+blog:
+  title: "Latest Articles"
+  description: "My thoughts on sales leadership, GTM strategy, and revenue growth"
+faq:
+  title: Frequently Asked Questions
+  description: Common questions about my background, expertise, and how I can help your business grow.
+  categories:
+    - title: Expertise & Services
+      questions:
+        - label: What are your core areas of expertise?
+          content: |
+            My expertise spans Inside Sales strategy and execution, GTM (Go-To-Market) design for B2B and SMB segments, Revenue Growth management, Digital Transformation of commercial operations, CRM architecture and automation, and Sales Leadership. I've built and managed teams of 50+ representatives with annual pipelines exceeding R$ 1 billion.
+        - label: What industries have you worked in?
+          content: |
+            I have deep experience in fintech and digital payments (Mercado Livre, Cielo), retail (Carrefour, Cacau Show), and e-commerce. My expertise spans both B2B and B2C environments, with a particular focus on SMB and Long Tail segments in Brazil's high-growth digital economy.
+        - label: Do you do consulting work?
+          content: |
+            Yes, I am open to strategic consulting engagements focused on Inside Sales structuring, GTM strategy design, sales process optimization, and AI-driven sales automation. If you're looking to scale your commercial operation or accelerate revenue growth, let's talk.
+    - title: Leadership & Results
+      questions:
+        - label: What results have you achieved in your career?
+          content: |
+            Key highlights include: managing a sales pipeline of R$ 1 billion annual TPV at Mercado Livre; leading a team of 50+ inside sales representatives; implementing AI-powered lead qualification that reduced CAC by 35% without losing conversion performance; and driving digital transformation initiatives at Cielo that modernized partner ecosystems across physical and e-commerce channels.
+        - label: How do you approach building high-performance sales teams?
+          content: |
+            I combine structured methodologies (SPIN Selling, Predictable Revenue) with data-driven management. I focus on defining clear KPIs, building robust cadence processes through CRM, developing SDR and Closer roles with specific playbooks, and creating a culture where performance is measured, celebrated, and continuously improved.
+        - label: What is your approach to Digital Transformation in sales?
+          content: |
+            I believe Digital Transformation in commercial operations must balance technology adoption with human performance. My approach starts with mapping the existing sales process, identifying high-impact automation opportunities (CRM cadences, AI lead scoring), piloting changes with measurable baselines, and scaling what works — always keeping conversion rates and customer experience at the center.
+    - title: Background
+      questions:
+        - label: What is your educational background?
+          content: |
+            I hold an MBA in Business Management from FIA (Fundação Instituto de Administração), one of Brazil's most prestigious business schools, and a degree in Marketing from Pontifícia Universidade Católica de São Paulo (PUC-SP).
+        - label: Where are you based and do you work remotely?
+          content: |
+            I'm based in Santana de Parnaíba, São Paulo, Brazil. I'm experienced in leading fully remote and hybrid sales operations, having managed distributed teams across Brazil throughout my career.
