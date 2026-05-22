@@ -11,21 +11,6 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
-  i18n: {
-    strategy: 'prefix_except_default',
-    defaultLocale: 'en',
-    locales: [
-      { code: 'en', name: 'English', language: 'en-US', file: 'en.json' },
-      { code: 'pt-BR', name: 'Português', language: 'pt-BR', file: 'pt-BR.json' }
-    ],
-    langDir: 'locales/',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
-    }
-  },
-
   devtools: {
     enabled: true
   },
@@ -55,6 +40,21 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+
+  i18n: {
+    strategy: 'prefix_except_default',
+    defaultLocale: 'en',
+    locales: [
+      { code: 'en', name: 'English', language: 'en-US', file: 'en.json' },
+      { code: 'pt-BR', name: 'Português', language: 'pt-BR', file: 'pt-BR.json' }
+    ],
+    langDir: 'locales/',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
     }
   },
 
