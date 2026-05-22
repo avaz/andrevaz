@@ -1,0 +1,48 @@
+title: Palestras & Workshops
+description: Eventos, painéis e workshops onde compartilhei insights sobre Inside Sales, GTM Strategy, Revenue Growth e Transformação Digital em operações comerciais.
+links:
+  - label: Convidar para palestra
+    size: md
+events:
+  - category: Conference
+    title: "Escalando Vendas para PMEs: GTM Strategy para B2B de Alto Volume"
+    date: "2024-09-18"
+    location: "Inside Sales Summit Brasil, São Paulo, SP"
+    url: "https://www.linkedin.com/in/andre-duarte-vaz"
+  - category: Conference
+    title: "IA em Inside Sales: Como Reduzimos o CAC em 35% no Mercado Livre"
+    date: "2024-05-22"
+    location: "RD Summit, Florianópolis, SC"
+    url: "https://www.linkedin.com/in/andre-duarte-vaz"
+  - category: Conference
+    title: "Construindo Receita Previsível em Segmentos Long Tail"
+    date: "2023-10-10"
+    location: "B2B Summit Brasil, São Paulo, SP"
+  - category: Live talk
+    title: "Liderança em Vendas em Scale-ups: Gerenciando 50+ Reps para uma Meta de R$1Bi"
+    date: "2024-08-14"
+    location: "Vendas B2B Meetup, São Paulo, SP"
+    url: "https://www.linkedin.com/in/andre-duarte-vaz"
+  - category: Live talk
+    title: "Vendas Omni-Channel: Integrando Físico e Digital para Maximizar Receita"
+    date: "2024-03-20"
+    location: "Retail & Growth Forum, São Paulo, SP"
+  - category: Live talk
+    title: "De Churn a Crescimento: Estratégias de CRM para Gestão do Ciclo de Vida SMB"
+    date: "2023-06-08"
+    location: "CRM & Customer Success Day, São Paulo, SP"
+  - category: Podcast
+    title: "GTM Strategy no Brasil: construindo operações de Inside Sales escaláveis"
+    date: "2024-07-05"
+    location: "Casts for Closers (Convidado)"
+    url: "https://www.linkedin.com/in/andre-duarte-vaz"
+  - category: Podcast
+    title: "Transformação Digital em Vendas: IA, CRM e o futuro do Inside Sales"
+    date: "2024-02-12"
+    location: "Papo de Vendedor Podcast (Convidado)"
+    url: "https://www.linkedin.com/in/andre-duarte-vaz"
+  - category: Podcast
+    title: "Carreira em Vendas B2B: da estratégia comercial à liderança de times"
+    date: "2023-08-30"
+    location: "Sales Hunters Brasil Podcast"
+    url: "https://www.linkedin.com/in/andre-duarte-vaz"

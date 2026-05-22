@@ -1,0 +1,118 @@
+seo:
+  title: "André Vaz - Gerente de Vendas & Crescimento"
+  description: "Bem-vindo ao meu portfólio! Sou André Vaz, Gerente de Vendas e Crescimento com mais de 15 anos de experiência no Mercado Livre, Cielo e Carrefour. Especializado em Inside Sales B2B, GTM Strategy e Transformação Digital."
+title: "Olá, sou André Vaz Gerente de Vendas & Crescimento"
+description: "Construo e escalo operações de vendas de alta performance, transformando estratégia em receita mensurável. Especializado em Inside Sales B2B, GTM Strategy e Transformação Digital nas principais empresas do Brasil."
+hero:
+  links:
+    - label: "Conectar no LinkedIn"
+      to: https://www.linkedin.com/in/andre-duarte-vaz
+      target: "_blank"
+      color: "neutral"
+  images:
+    - src: /hero/random-1.avif
+      alt: Estratégia de negócios
+    - src: /hero/random-2.avif
+      alt: Time de vendas
+    - src: /hero/random-3.avif
+      alt: Análise de dados
+    - src: /hero/random-4.avif
+      alt: Planejamento de crescimento
+    - src: /hero/random-5.avif
+      alt: Transformação digital
+    - src: /hero/random-6.avif
+      alt: Liderança de times
+    - src: /hero/random-7.avif
+      alt: Crescimento de receita
+    - src: /hero/random-8.avif
+      alt: Estratégia de CRM
+    - src: /hero/random-9.avif
+      alt: Vendas B2B
+about:
+  title: "Sobre Mim"
+  description: |
+    Gerente de Vendas & Crescimento com mais de 15 anos liderando operações de Inside Sales e GTM Strategy em empresas como Mercado Livre, Cielo e Carrefour.
+    Especialista em construir times B2B de alta performance, escalar receita em segmentos SMB e conduzir Transformação Digital — incluindo processos de vendas com IA que reduziram o CAC em 35%.
+experience:
+  title: Experiência Profissional
+  items:
+    - position: "Gerente de Inside Sales & Growth Strategy no"
+      date: "2021 - Presente"
+      company:
+        name: Mercado Livre
+        logo: "i-simple-icons-mercadolibre"
+        url: "https://www.mercadolivre.com.br"
+        color: "#FFE600"
+    - position: "Coordenador Sênior de Planejamento Comercial & Estratégia na"
+      date: "2013 - 2021"
+      company:
+        name: Cielo
+        logo: "i-heroicons-credit-card"
+        url: "https://www.cielo.com.br"
+        color: "#005CA9"
+    - position: "Coordenador de CRM no"
+      date: "2011 - 2013"
+      company:
+        name: Carrefour
+        logo: "i-simple-icons-carrefour"
+        url: "https://www.carrefour.com.br"
+        color: "#004E9F"
+testimonials:
+  - quote: "André tem uma capacidade excepcional de transformar desafios complexos de negócios em estratégias de vendas estruturadas e executáveis. Sua abordagem GTM no Mercado Livre estabeleceu um novo padrão para como pensamos sobre aquisição e retenção de PMEs. Os resultados falam por si — um pipeline de R$1 bilhão gerenciado com precisão e consistência."
+    author:
+      name: 'Ricardo Mendes'
+      description: 'VP de Operações Comerciais, Fintech Brasil'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "O que diferencia o André é sua rara combinação de visão estratégica e execução hands-on. Durante nossa atuação juntos na Cielo, ele liderou a transformação digital do ecossistema de parceiros com uma clareza e disciplina orientada a dados que poucos líderes possuem. Ele não constrói apenas times de vendas — ele constrói máquinas de receita."
+    author:
+      name: 'Fernanda Costa'
+      description: 'Head de Canais Digitais, Cielo'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "O André foi fundamental na implementação da qualificação de leads por IA que melhorou dramaticamente nossa eficiência de vendas. Seu profundo conhecimento de Inside Sales, gestão de SDRs e automação de CRM — combinado com uma liderança genuína — fez dele o líder comercial de maior impacto com quem trabalhei no ecossistema de tecnologia brasileiro."
+    author:
+      name: 'Lucas Tavares'
+      description: 'Diretor de Inside Sales, Scale-up B2B SaaS'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+blog:
+  title: "Artigos Recentes"
+  description: "Minhas reflexões sobre liderança em vendas, GTM strategy e crescimento de receita"
+faq:
+  title: Perguntas Frequentes
+  description: Perguntas comuns sobre minha trajetória, expertise e como posso ajudar seu negócio a crescer.
+  categories:
+    - title: Expertise & Serviços
+      questions:
+        - label: Quais são suas principais áreas de expertise?
+          content: |
+            Minha expertise abrange estratégia e execução de Inside Sales, design de GTM (Go-To-Market) para segmentos B2B e SMB, gestão de Revenue Growth, Transformação Digital de operações comerciais, arquitetura e automação de CRM e Sales Leadership. Construí e gerenciei times de mais de 50 representantes com pipelines anuais superiores a R$ 1 bilhão.
+        - label: Em quais setores você atuou?
+          content: |
+            Tenho profunda experiência em fintech e pagamentos digitais (Mercado Livre, Cielo), varejo (Carrefour, Cacau Show) e e-commerce. Minha expertise abrange ambientes B2B e B2C, com foco especial nos segmentos SMB e Long Tail na economia digital brasileira.
+        - label: Você realiza trabalhos de consultoria?
+          content: |
+            Sim, estou aberto a engajamentos de consultoria estratégica focados em estruturação de Inside Sales, design de GTM strategy, otimização de processos de vendas e automação de vendas com IA. Se você busca escalar sua operação comercial ou acelerar o crescimento de receita, vamos conversar.
+    - title: Liderança & Resultados
+      questions:
+        - label: Quais resultados você alcançou na sua carreira?
+          content: |
+            Destaques principais: gestão de um pipeline de vendas de R$ 1 bilhão em TPV anual no Mercado Livre; liderança de um time de mais de 50 representantes de Inside Sales; implementação de qualificação de leads por IA que reduziu o CAC em 35% sem perda de performance de conversão; e iniciativas de transformação digital na Cielo que modernizaram ecossistemas de parceiros nos canais físico e e-commerce.
+        - label: Como você aborda a construção de times de vendas de alta performance?
+          content: |
+            Combino metodologias estruturadas (SPIN Selling, Receita Previsível) com gestão orientada a dados. Foco em definir KPIs claros, construir processos robustos de cadência via CRM, desenvolver papéis de SDR e Closer com playbooks específicos e criar uma cultura onde a performance é medida, celebrada e continuamente aprimorada.
+        - label: Qual é sua abordagem para Transformação Digital em vendas?
+          content: |
+            Acredito que a Transformação Digital em operações comerciais deve equilibrar adoção de tecnologia com performance humana. Minha abordagem começa com o mapeamento do processo de vendas existente, identificação de oportunidades de automação de alto impacto (cadências de CRM, lead scoring por IA), pilotagem de mudanças com baselines mensuráveis e escalagem do que funciona — sempre mantendo as taxas de conversão e a experiência do cliente no centro.
+    - title: Formação
+      questions:
+        - label: Qual é sua formação acadêmica?
+          content: |
+            Tenho MBA em Gestão de Negócios pela FIA (Fundação Instituto de Administração), uma das escolas de negócios mais renomadas do Brasil, e graduação em Marketing pela Pontifícia Universidade Católica de São Paulo (PUC-SP).
+        - label: Onde você está localizado e trabalha remotamente?
+          content: |
+            Estou localizado em Santana de Parnaíba, São Paulo, Brasil. Tenho experiência em liderar operações de vendas totalmente remotas e híbridas, tendo gerenciado times distribuídos por todo o Brasil ao longo da minha carreira.

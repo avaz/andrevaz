@@ -1,6 +1,13 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => {
-  return queryCollection('index').first()
+const route = useRoute()
+const { localeLikePattern } = useContentLocale()
+
+const { data: page } = await useAsyncData(`index-${route.path}`, () => {
+  const q = queryCollection('index')
+  if (localeLikePattern.value) {
+    return q.where('path', 'LIKE', localeLikePattern.value).first()
+  }
+  return q.where('path', 'NOT LIKE', '/pt-br%').first()
 })
 if (!page.value) {
   throw createError({

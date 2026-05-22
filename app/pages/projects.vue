@@ -1,6 +1,12 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('projects-page', () => {
-  return queryCollection('pages').path('/projects').first()
+const route = useRoute()
+const { localeLikePattern } = useContentLocale()
+
+const { data: page } = await useAsyncData(`projects-page-${route.path}`, () => {
+  if (localeLikePattern.value) {
+    return queryCollection('pages').where('path', 'LIKE', '/pt-br/projects%').first()
+  }
+  return queryCollection('pages').where('path', '=', '/projects').first()
 })
 if (!page.value) {
   throw createError({
@@ -10,8 +16,11 @@ if (!page.value) {
   })
 }
 
-const { data: projects } = await useAsyncData('projects', () => {
-  return queryCollection('projects').all()
+const { data: projects } = await useAsyncData(`projects-${route.path}`, () => {
+  if (localeLikePattern.value) {
+    return queryCollection('projects').where('stem', 'LIKE', 'pt-br/projects/%').all()
+  }
+  return queryCollection('projects').where('stem', 'NOT LIKE', 'pt-br/%').all()
 })
 
 const { global } = useAppConfig()
@@ -93,7 +102,7 @@ defineOgImage('Portfolio', { title, description })
               :to="project.url"
               class="text-sm text-primary flex items-center"
             >
-              View Project
+              {{ $t('projects.viewProject') }}
               <UIcon
                 name="i-lucide-arrow-right"
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"

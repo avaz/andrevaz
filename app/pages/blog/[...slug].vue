@@ -1,12 +1,18 @@
 <script setup lang="ts">
 const route = useRoute()
+const { locale } = useI18n()
+const localePath = useLocalePath()
 
-const { data: page } = await useAsyncData(route.path, () =>
-  queryCollection('blog').path(route.path).first()
+// Nuxt Content lowercases directory names, so /pt-BR/blog/slug → /pt-br/blog/slug
+// while i18n routes keep the case /pt-BR/blog/slug
+const contentPath = route.path.toLowerCase()
+
+const { data: page } = await useAsyncData(`blog-post-${contentPath}`, () =>
+  queryCollection('blog').path(contentPath).first()
 )
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
-  queryCollectionItemSurroundings('blog', route.path, {
+const { data: surround } = await useAsyncData(`${contentPath}-surround`, () =>
+  queryCollectionItemSurroundings('blog', contentPath, {
     fields: ['description']
   })
 )
@@ -34,7 +40,7 @@ if (page.value.image) {
 const articleLink = computed(() => `${window?.location}`)
 
 const formatDate = (dateString: string) => {
-  return new Date(dateString).toLocaleDateString('en-US', {
+  return new Date(dateString).toLocaleDateString(locale.value === 'pt-BR' ? 'pt-BR' : 'en-US', {
     year: 'numeric',
     month: 'short',
     day: 'numeric'
@@ -47,11 +53,11 @@ const formatDate = (dateString: string) => {
     <UContainer class="relative min-h-screen">
       <UPage v-if="page">
         <ULink
-          to="/blog"
+          :to="localePath('/blog')"
           class="text-sm flex items-center gap-1"
         >
           <UIcon name="lucide:chevron-left" />
-          Blog
+          {{ $t('blog.back') }}
         </ULink>
         <div class="flex flex-col gap-3 mt-8">
           <div class="flex text-xs text-muted items-center justify-center gap-2">
@@ -62,7 +68,7 @@ const formatDate = (dateString: string) => {
               -
             </span>
             <span v-if="page.minRead">
-              {{ page.minRead }} MIN READ
+              {{ $t('blog.minRead', { n: page.minRead }) }}
             </span>
           </div>
           <NuxtImg
@@ -98,8 +104,8 @@ const formatDate = (dateString: string) => {
               size="sm"
               variant="link"
               color="neutral"
-              label="Copy link"
-              @click="copyToClipboard(articleLink, 'Article link copied to clipboard')"
+              :label="$t('blog.copyLink')"
+              @click="copyToClipboard(articleLink, $t('blog.linkCopied'))"
             />
           </div>
           <UContentSurround :surround />

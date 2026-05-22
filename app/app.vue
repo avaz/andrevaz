@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
+const { locale } = useI18n()
+const navLinks = useNavLinks()
 
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
 
@@ -13,7 +15,7 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: locale
   }
 })
 

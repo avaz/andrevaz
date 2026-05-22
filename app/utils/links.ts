@@ -1,3 +1,4 @@
+// Static navLinks kept for content search fallback; locale-aware version via useNavLinks()
 import type { NavigationMenuItem } from '@nuxt/ui'
 
 export const navLinks: NavigationMenuItem[] = [{

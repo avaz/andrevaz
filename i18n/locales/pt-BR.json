@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Início",
+    "projects": "Projetos",
+    "blog": "Blog",
+    "speaking": "Palestras",
+    "about": "Sobre"
+  },
+  "blog": {
+    "back": "Blog",
+    "minRead": "{n} MIN DE LEITURA",
+    "copyLink": "Copiar link",
+    "linkCopied": "Link do artigo copiado"
+  },
+  "projects": {
+    "viewProject": "Ver Projeto"
+  },
+  "speaking": {
+    "listen": "Ouvir",
+    "watch": "Assistir"
+  },
+  "footer": {
+    "credits": "André Vaz • © {year}"
+  },
+  "contact": {
+    "available": "Disponível para novas oportunidades",
+    "unavailable": "Não disponível para novas oportunidades"
+  }
+}

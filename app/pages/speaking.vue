@@ -7,8 +7,15 @@ type Event = {
   category: 'Conference' | 'Live talk' | 'Podcast'
 }
 
-const { data: page } = await useAsyncData('speaking', () => {
-  return queryCollection('speaking').first()
+const route = useRoute()
+const { locale } = useI18n()
+const { localeLikePattern } = useContentLocale()
+
+const { data: page } = await useAsyncData(`speaking-${route.path}`, () => {
+  if (localeLikePattern.value) {
+    return queryCollection('speaking').where('path', 'LIKE', '/pt-br%').first()
+  }
+  return queryCollection('speaking').where('path', 'NOT LIKE', '/pt-br%').first()
 })
 if (!page.value) {
   throw createError({
@@ -46,7 +53,7 @@ const groupedEvents = computed((): Record<Event['category'], Event[]> => {
 })
 
 function formatDate(dateString: string): string {
-  return new Date(dateString).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
+  return new Date(dateString).toLocaleDateString(locale.value === 'pt-BR' ? 'pt-BR' : 'en-US', { year: 'numeric', month: 'long' })
 }
 </script>
 
@@ -114,7 +121,7 @@ function formatDate(dateString: string): string {
             <UButton
               v-if="event.url"
               target="_blank"
-              :label="event.category === 'Podcast' ? 'Listen' : 'Watch'"
+              :label="event.category === 'Podcast' ? $t('speaking.listen') : $t('speaking.watch')"
               variant="link"
               class="p-0 pt-2 gap-0"
             >
