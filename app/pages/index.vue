@@ -21,8 +21,13 @@ useSeoMeta({
   title: page.value?.seo.title || page.value?.title,
   ogTitle: page.value?.seo.title || page.value?.title,
   description: page.value?.seo.description || page.value?.description,
-  ogDescription: page.value?.seo.description || page.value?.description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png'
+  ogDescription: page.value?.seo.description || page.value?.description
+})
+
+defineOgImageComponent('Portfolio', {
+  headline: 'andrevaz.com',
+  title: page.value?.seo.title || page.value?.title,
+  description: page.value?.seo.description || page.value?.description
 })
 </script>
 
