@@ -90,7 +90,7 @@ function formatDate(dateString: string): string {
           <h2
             class="lg:sticky lg:top-16 text-xl font-semibold tracking-tight text-highlighted"
           >
-            {{ category.replace(/([A-Z])/g, ' $1').replace(/^./, (str) => str.toUpperCase()) }}s
+            {{ category.replace(/([A-Z])/g, ' $1').replace(/^./, (str: string) => str.toUpperCase()) }}s
           </h2>
         </div>
 
